@@ -221,7 +221,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxTime: 2
   _heightRange: 0
-  _obj: {fileID: 7898152018268385092, guid: 44ee2f21636f87b47bf896ebca5d1a3e, type: 3}
+  _spawnObject:
+  - {fileID: 7898152018268385092, guid: 49a30d9683e7f7142b1434f288affa66, type: 3}
+  - {fileID: 7898152018268385092, guid: 44ee2f21636f87b47bf896ebca5d1a3e, type: 3}
+  - {fileID: 7898152018268385092, guid: bfc15014c90011a40bc297ca901435a3, type: 3}
 --- !u!4 &173701894
 Transform:
   m_ObjectHideFlags: 0
@@ -268,7 +271,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxTime: 3
   _heightRange: 1.5
-  _obj: {fileID: 9192630703931371508, guid: 364f02cb13790d340a6d27d37ebeda14, type: 3}
+  _spawnObject:
+  - {fileID: 9192630703931371508, guid: fe09562cc02b52541ad9a0f420c7148e, type: 3}
+  - {fileID: 9192630703931371508, guid: 364f02cb13790d340a6d27d37ebeda14, type: 3}
+  - {fileID: 9192630703931371508, guid: 80ee6d3ce27155b459b478df3f7f08f6, type: 3}
 --- !u!4 &185993791
 Transform:
   m_ObjectHideFlags: 0
