@@ -16,6 +16,7 @@ public class ScoreCounter : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             ScoreScript.instance.UpdateScore();
+            _pointSource.volume = PlayerPrefs.GetInt("music");
             _pointSource.Play();
         }
         
